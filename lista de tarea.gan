@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-08-30" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3309" locale="es_ES">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd15" name="Notas" width="20" order="-1"/>
+        <field id="tpd3" name="Nombre" width="200" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="75" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="41f982d59f0144aca9f35589ef20a233" name="*Fase Técnica" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="1" uid="1e251c259d924e18ba5591313549a364" name="Crear mi lista de tareas" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="2" uid="e45d93b28a784a75b2e3e8e8bf866f6c" name="Registro de dominio.es" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="3" uid="c78a9872fd7a4b90bab719ed66e46ad1" name="Contrato de alojamiento hosting" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="4" uid="f049da9140984450a2d9844f8cd7f417" name="Configuración del Servidor donde se alojará la tienda." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="5" uid="faae57cc0d4b46f3bbd9befd16d071bf" name="Instalación y configuración básica del Software que utilizará la tienda en el servidor." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="6" uid="6ff4e56c9ede403cabd3ac365ac3eda8" name="Redirección de las DNS del Dominio." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="7" uid="00c7195b36cb4d89b4579469674f7855" name="Apertura de Correos y configuración." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="8" uid="949937e0d0b540beb12f5c0b2cf1466e" name="Creación de cuenta FTP para publicación de archivos." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="9" uid="8bf4572520874403a56e790eb5766d95" name="Creación de Base de Datos, usuarios y privilegios." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="10" uid="f6eef70eb9684631b9dfc8a0bb374bb9" name="Implementación de SSL / HTTPS." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="11" uid="812ec6e5b6a8426ea0aa2da4110e81e8" name="Configuración de Buscador." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="12" uid="f8533079147449fbbcc01023c8014a57" name="Configuración de Módulos especiales de oferta, novedades, etc." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="13" uid="963de38fd83d4fb69ccc5d8438a89092" name="*Fase Diseño" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="14" uid="cb70cc9e126949bf8c1a116a5b0c5de0" name="Diseño del Logotipo." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="15" uid="96a5cedc765341b59e1ecedd54faa236" name="Diseño de Favicon." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="16" uid="ba1c32b5236a4580967abdbbd1cfb380" name="Diseño de interfaz general de tienda." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="17" uid="aa694bb1f3804657b610ccbd361413c3" name="Diseño del proceso de compra de la tienda." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="18" uid="17415f421a5f43ab88a7939204b7bc3c" name="Diseño de suscripción a tienda." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="19" uid="c409ff624350452eac5e351635d48de3" name="Diseño de los correos transaccionales." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="20" uid="304f78286aae4e9da148195e63da9740" name="Diseño de las plantillas de newsletter para envío de ofertas." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="21" uid="684504dd7f594e8a93f546bd6bc14c72" name="Diseño de banners de oferta." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="22" uid="3c9519b713034716b1858cf5f53dcf22" name="Diseño de zona privada del cliente." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="23" uid="852cf6cc815d497fbd60fc3bd5c63aad" name="Diseño de facturas, pedidos, etc." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="24" uid="1ffcb564297a4f65b5b9d238324ab349" name="Fotos de productos y relacionadas" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="25" uid="d5a864e3514047359a797b76a2d913f7" name="Retoque de imágenes si fuera necesario." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="26" uid="af8ffe2f7d5d480189f59cab979cb4b3" name="Diseño de Página de Error 404." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="27" uid="d4cfcf52fc0e4d26899756fcdc03e5ac" name="Diseño Imagen de Sustitución, placeholder (por si no hay del producto)." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="28" uid="fc964b9ab1bd43628953d15dacd5c4df" name="*Fase Contenidos" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="29" uid="6435c7cb226b4a55a35a4fca9fc0a9e2" name="Contenidos Meta en el HEAD (para Google)" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="30" uid="2408ab97a6fd4f10b91748e091e1be27" name="Contenido en Páginas estáticas tipo Quienes Somos" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="31" uid="2829a627b74d4afc993abc6303881eca" name="Implementación de RDLOPD y RGPD2018" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="32" uid="8277cd5ea61142048574bc129943bb5b" name="Creación de páginas para RGPD / Términos y condiciones" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="33" uid="8bf6e69691b948ef80cc4553e0ad2b0b" name="Garantías" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="34" uid="b98f0089a5ed4f3d86e5b19b0cfad24e" name="Cómo comprar" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="35" uid="5ee41ec16c784c0995309f2dc40173fb" name="Política de privacidad" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="36" uid="cc1628a3275a47aaa7d31ab0848a4fc9" name="Política de cookies" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="37" uid="5ba198455ddd4c9e8a9e61df586777da" name="Términos y condiciones" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="38" uid="d2b4310948a749e6b5b973e35c3dcaee" name="Aviso legal" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="39" uid="e7ae292b13754acc9e6f8df18d713ec6" name="Preguntas frecuentes" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="40" uid="f56265d34a9641d4a969601834ed6c1c" name="Gastos de envío" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="41" uid="eb2c3ad641ee4c019f23927e371bff08" name="Uso de la web" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="42" uid="f5b7c48f1e104fc6afdf33ba1b9290b1" name="Desistimiento" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="43" uid="fe6227833d154241ac845d59e9d380fe" name="Aviso de Cookies" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="44" uid="ba1ceb06768b4cd7b1b0f9378d24b47e" name="Introducción de los datos para facturación." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="45" uid="f03cbf053c6f4f2ebb5ed97deaaa9539" name="Creación de tipos de productos." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="46" uid="fe6069716d384404a02eb8baa45dd367" name="Creación de categorías de productos." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="47" uid="a282b55465834f8a9dbfb9246ef0ac16" name="Introducción de los artículos." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="48" uid="7eab3b1304314de497f8029e55346701" name="Creación de SITEMAP (para Google)." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="49" uid="190ac4958d9c493dadc2406874b2d779" name="Configuración de Zona privada del usuario" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="50" uid="7b8fbf8c1b3f45938b5707af296b6610" name="Configuración de Opiniones de Producto" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="51" uid="c863a197b45a4d3293ee319877169538" name="Configuración de Productos Relacionados" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="52" uid="e9c04cbe4ccb48b79745cd793cd56347" name="Configuración del Comparador de Productos" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="53" uid="86f0fb3aeb794231aaa8a34607a678d8" name="*Fase Envío" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="54" uid="d4688e9106c64d8b96e007da63731233" name="Integración del módulo de Envío." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="55" uid="cfa7f8e5bc3748008f87257c243ad714" name="Configuración de Transportistas." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="56" uid="13105caae05d45ee97cbafd8a6fe1cca" name="Configuración del envío según el contrato." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="57" uid="95ac488727ea45e493aaf1762c0dfa77" name="Configuración de ofertas de envío según el carrito de compra." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="58" uid="e1b4b42c8aa846d3a8361a4409c06744" name="Inclusión de logos de forma de envió." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="59" uid="334acf39b83f49eab4618608f8c7f60f" name="Creación de página de Condiciones de Envío y devolución." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="60" uid="7beec99c6f9244a1ae11c8c2921c48a4" name="*Fase Pagos" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="61" uid="bc56c506ba4042eabb805512f18a96a5" name="Configuración de Impuestos." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="62" uid="28c40971ec3748a285c31ea1c2b688fb" name="Integración del módulo de Pago." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="63" uid="089ad0fbd11b4a34834b4e72014054c2" name="Configuración de opciones de Pago" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="64" uid="eabc2871f71c45198dd53f0113bb000c" name="Intalar módulo de REDSYS" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="65" uid="d09bb7d37ebc40e1bb610008a17a2279" name="Configurar Módulos de REDSYS" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="66" uid="68721a0e66c54ce1aca00ddef527de86" name="Testear REDSYS y pasar a producción" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="67" uid="ce2a3b443de84ffd8287eecef17544bd" name="Envíos a Canarias, Baleares, Ceuta y Melilla." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="68" uid="aeda3e96f3bb43ebbf20af4578176e62" name="Integración y configuración de PayPal." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="69" uid="db357af11b86442fb35b249eecdb890b" name="Opción de Recogida en tienda." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="70" uid="e86fb6385ee64173ad0d1e6863e855ae" name="Opción de Envolver para regalo." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="71" uid="64b58aba667f4de7aead70eedf1db8b1" name="Configuración de cupones y ofertas." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="72" uid="afb4576766d4402491c0a79c0d99da5d" name="Inclusión de logos de forma de pago." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="73" uid="6fb4a4476d4e4e78bb8dd4c958947a07" name="Información en pagina de Condiciones de Envío y devolución." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="74" uid="8b40ed9db379436ba883f7fce7fe97e3" name="*Fase Seguridad" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="75" uid="e5c31e4dbfb94bf1a69b8171c98e31b7" name="Implementar seguridad SSL HTTPS" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="76" uid="348faa871ecf4ba98c45a138e3c8f31a" name="Instalar seguridad de acceso a módulos de administración" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="77" uid="06cef62acfe74435b597981123b6a46e" name="Configurar niveles de protección de escritura" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="78" uid="5f7ec391894d4d009ee32632894804be" name="Planificar BackUp base de datos" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="79" uid="9a4db6e35aa7462bb7da5cebf5f5527c" name="Planificar BackUp estructura web" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="80" uid="e8e9f5e67118455eab1021de6b3d12c9" name="*Fase Novedades" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="81" uid="0cff3c6a5c8345fe97a3cafdbb4d134d" name="Diseño de estructura" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="82" uid="5aa5e29ae8b64d02bd7d002ee77b55e0" name="Diseño de páginade entradas" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="83" uid="2fe0c6e6028e4159a3992f210a913321" name="Diseño de portada de novedades" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="84" uid="a92f482a47e344e2a9c4dbb84a2e8cf7" name="*Fase Uso del Gestor" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="85" uid="7ce06e0428ab41018b9322cc379acf4d" name="Ayuda general al aprendizaje del uso del gestor." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="86" uid="99736962ba744ca38bcf6ffa2d31a093" name="Aprendizaje de control de facturación." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="87" uid="345613f8948841fcb06858af52368f57" name="Aprendizaje de introducción de productos y categorías." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="88" uid="14531da2e14a4b36bcc209e5cd952a71" name="Aprendizaje del uso de ofertas." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="89" uid="b91444c9f3784d61936c696acb836f01" name="Aprendizaje del uso de los reportes de ventas." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="90" uid="2d34896460084327b3a0b5ef4744e6ba" name="Configuración de Usuarios." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="91" uid="17f38b055a634600a21cd440ced49518" name="Posible configuración de diferentes clientes." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="92" uid="68706a0c47a24ae7b768cd6d8baa46d3" name="Entrega de información y documentación extra sobre el gestor." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="93" uid="9b0619ce4baf41598ed843c84b6aac55" name="*Fase Social" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="94" uid="6832fe004c8542d9af6a2d4fb40d79f8" name="Incluir enlace a Redes Sociales." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="95" uid="c2da7ec18bf44bf4b57f52b013fed9b8" name="Incluir posibles ventanas/iframe de redes sociales." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="96" uid="32de41acf18e4dd4b29a276ed34a54e2" name="Incluir opciones de compartir los productos." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="97" uid="8f7111dd60c840389e30b7f8e5e6e56d" name="*Fase SEO SEM (alta en Google)" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="98" uid="7a906d9d70614678984f3ed44cba623c" name="Alta en Googbe MyBusiness." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="99" uid="daeacf60818148a9a8880114a5222b05" name="Alta en Google Search Console." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="100" uid="2ea69a1769cb482fbfb26b17a969b009" name="Solicitar clave de localización." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="101" uid="7dd3bfb22cf04d42ab237bb33468403c" name="Alta en Google Analitycs." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="102" uid="fcea6fde43e04ad2928f27154572d13c" name="Alta en Google Shopping." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="103" uid="06aeb1bc661e4c24b6ec55fe1cae3723" name="Planificar Publicaciones." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="104" uid="a42a164042e7484a93300f3a66a71f32" name="Planificar Campañas Marketing." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="105" uid="7f9ac6da373247f886b7a8b15684b965" name="Responder las valoraciones de los clientes" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="106" uid="9d61a29b42d44fe28bb19308f1460eb8" name="*Chequeo final" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="107" uid="37ca9bfdcfcc448c8d8d860c136b8792" name="Unir CSS y Javascript" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="108" uid="28f4929c40c4414494daf621d1bc3c14" name="Optimización del tiempo de carga de paginas." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="109" uid="aa42f25829884dc1a4d69518f709d362" name="Probar la suscripción a la tienda." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="110" uid="45b2391fcd3a4531ba6c78d572b9b587" name="Pruebas del módulo de envío" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="111" uid="f4e2aafbe7314d42950e563b540394c4" name="Pruebas del módulo de pago" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="112" uid="eb71dfd5bd5340788960a7bdf0dcb712" name="Prueba de lanzamiento de Newsletter." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="113" uid="b7a7c17b061a455a9662303a096eca0a" name="Pruebas de Optimización para Google." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="114" uid="93b6bc0137fc4e58b5c8c56d4a766bc3" name="Chequear diseño en Móviles." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="115" uid="5546da1936ae4762af90adc855abe27d" name="Chequear envío de newsletter." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="116" uid="03ea28601cda4ff19872e9faea896802" name="Chequear envío de facturas." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="117" uid="aeac2b5d139e4b3289656b07ee334eab" name="Implementar seguridad antihacking" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="118" uid="2d984f5721ed4054a1607e41b89ef8e0" name="Optimización del gestor por módulos sin uso." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="119" uid="0322805779e94c9d91e8b5a53ad49053" name="Sistema de Seguridad de Bases de Datos y Copias de seguridad." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="120" uid="5c82749204e748d683684cd2f7e6a908" name="Sistema de caché para mejorar rendimiento." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="121" uid="463fd9c6300240f1aefbe3733a0e117b" name="Limpiar datos falsos de prueba." meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="122" uid="12e754cb7e494f818f1389a8784fe7dd" name="*Formación" meeting="false" start="2024-08-30" duration="1" complete="0" expand="false">
+            <task id="123" uid="278861f55c404998a2fde035224711d3" name="Módulo de Woocommerce" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="124" uid="149ce442d1a940d28150650807a2e6ca" name="Módulo de Productos" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="125" uid="7e58d96d83d94a0ab595fe398d2b5f35" name="Módulo de Entradas" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+            <task id="126" uid="64d65c87c494489a9f697f93910b57ab" name="Repaso general a los procesos" meeting="false" start="2024-08-30" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
